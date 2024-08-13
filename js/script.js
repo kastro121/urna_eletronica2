@@ -51,10 +51,10 @@ function atualizaInterface(){
         let fotosHTML = '';
         for(let i in candidato.fotos){
             if(candidato.fotos[i].small) {
-                fotosHTML += '<div class="d-1-image small"> <img src="Images/'+candidato.fotos[i].url+'" alt="" />'+candidato.fotos[i].legenda+'</div>';
+                fotosHTML += '<div class="d-1-image small"> <img src="Images/'+candidato.fotos[i].url+'" alt="candiadto" />'+candidato.fotos[i].legenda+'</div>';
             }else {
                 //fotosHTML += '<div class="d-1-image"> <img src="Images/${candidato.fotos[i].url}" alt="" />${candidato.fotos[i].legenda}</div>';
-                fotosHTML += '<div class="d-1-image"> <img src="Images/'+candidato.fotos[i].url+'" alt="" />'+candidato.fotos[i].legenda+'</div>';
+                fotosHTML += '<div class="d-1-image"> <img src="Images/'+candidato.fotos[i].url+'" alt="candidato" />'+candidato.fotos[i].legenda+'</div>';
             }
  
         }
